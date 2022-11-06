@@ -1,0 +1,98 @@
+@font-face {
+  font-family: CustomFont;
+  src: url(./PT-Mono-Regular.web/PT/PT/PT-Mono/PT-Mono_Regular.woff2);
+}
+
+html{
+    background-image: url("background.jpg");
+    background-color: #2FDD2F;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h1, h2, h3, p, label{
+  color: white;
+  font-weight: bold;
+  font-family: CustomFont;
+  text-shadow: 3px 3px 5px black;
+}
+
+h1, h2{
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+article{
+  width: 90%;
+  /*border: 2px solid green; */
+  box-shadow: 5px 5px 10px 0px green;
+  background-color: rgba(0,128,0,0.8);
+  margin-top: 15px;
+  float: left;
+  position: 
+}
+
+
+nav{
+    background-color: green;
+    height: 100%;
+    width: 20%;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+header{
+  width: 80%;
+  position: relative;
+  left: 20%;
+}
+
+main{
+  padding: 0px;
+  margin: 0px;
+  height: 500px;
+  width: 80%;
+  position: absolute;
+  right: 0px;
+}
+
+.left{
+  position: absolute;
+  left: 0px;
+  width: 30%;
+}
+
+.right{
+position: absolute;
+right: 15px;
+width: 70%;
+}
+
+.profile{
+  display: block;
+  border-radius: 50%;
+  /*height: 250px; */
+  width: 70%;
+  margin: auto;
+}
+
+button{
+  position: absolute;
+  right: 10%;
+  cursor: pointer;
+  background-color: green;
+  height: 3em;
+  padding: 0px 25px;
+  border-width: 0px;
+}
+
+button:hover{
+  background-color: #00FF00;
+}
